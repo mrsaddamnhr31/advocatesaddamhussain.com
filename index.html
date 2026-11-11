@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advocate Saddam Hussain - Legal Excellence | Corporate Governance | Financial Expertise | Professional Integrity">
+    <meta name="keywords" content="Advocate Saddam Hussain, Corporate Law, Legal Advisor, CFO, Bar Council of India, Rajasthan Advocate">
+    <title>Advocate Dr. Saddam Hussain | Legal Excellence | Corporate Governance</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+            padding-top: 64px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        /* ── NAV ── */
+        nav {
+            background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+            height: 52px;
+        }
+
+        .nav-brand {
+            color: white;
+            font-weight: 700;
+            font-size: 0.9em;
+            white-space: nowrap;
+            display: none;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: nowrap;
+            gap: 4px;
+            align-items: center;
+            width: 100%;
+        }
+
+        nav a {
+            color: rgba(255,255,255,0.88);
+            text-decoration: none;
+            font-size: 0.82em;
+            font-weight: 600;
+            padding: 6px 10px;
+            border-radius: 20px;
+            transition: background 0.25s, color 0.25s;
+            white-space: nowrap;
+        }
+
+        nav a:hover {
+            background: rgba(255,255,255,0.2);
+            color: white;
+        }
+
+        /* hamburger */
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 6px;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .nav-toggle span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: white;
+            border-radius: 2px;
+            transition: all 0.3s;
+        }
+
+        /* ── HEADER / HERO ── */
+        .header {
+            background: linear-gradient(135deg,
+                rgba(6, 182, 212, 0.88) 0%,
+                rgba(8, 145, 178, 0.88) 50%,
+                rgba(14, 116, 144, 0.88) 100%),
+                url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80') center/cover no-repeat;
+            color: white;
+            padding: 55px 40px 45px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.07) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: movePattern 20s linear infinite;
+            pointer-events: none;
+        }
+
+        @keyframes movePattern {
+            0%   { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 190px 1fr;
+            gap: 40px;
+            align-items: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .profile-image {
+            width: 190px;
+            height: 190px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            object-position: top center;
+            display: block;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+        }
+
+        .profile-initials {
+            width: 190px;
+            height: 190px;
+            border-radius: 50%;
+            border: 5px solid white;
+            background: rgba(255,255,255,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5em;
+            font-weight: 700;
+            color: white;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+        }
+
+        .hero-text h1 {
+            font-size: 2.6em;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .hero-text h2 {
+            font-size: 1.1em;
+            font-weight: 400;
+            opacity: 0.95;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        .hero-text h3 {
+            font-size: 1em;
+            font-weight: 300;
+            opacity: 0.88;
+            margin-bottom: 18px;
+        }
+
+        .cop-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.18);
+            border: 1px solid rgba(255,255,255,0.4);
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            margin-bottom: 18px;
+            letter-spacing: 0.3px;
+        }
+
+        .tagline-strip {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tagline-strip span {
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.78em;
+            font-weight: 500;
+        }
+
+        .header-contact {
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 12px;
+            padding: 18px 24px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px 30px;
+            position: relative;
+            z-index: 10;
+            margin-top: 30px;
+        }
+
+        .header-contact .col-label {
+            color: #ffd700;
+            font-size: 0.82em;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 4px;
+            display: block;
+        }
+
+        .header-contact .col {
+            text-align: center;
+        }
+
+        .header-contact .col p {
+            font-size: 0.9em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        /* ── MAIN CONTENT ── */
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 42px;
+        }
+
+        .section-title {
+            font-size: 1.7em;
+            color: #0891b2;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #0891b2;
+            font-weight: 700;
+        }
+
+        /* ── TWO-COL INTRO ── */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .info-box {
+            background: #cffafe;
+            padding: 22px;
+            border-radius: 10px;
+            border-left: 5px solid #06b6d4;
+        }
+
+        .info-box h4 {
+            color: #0891b2;
+            margin-bottom: 14px;
+            font-size: 1.05em;
+        }
+
+        .info-box ul {
+            list-style: none;
+        }
+
+        .info-box li {
+            padding: 6px 0 6px 24px;
+            position: relative;
+            font-size: 0.93em;
+        }
+
+        .info-box li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #0891b2;
+            font-weight: bold;
+        }
+
+        /* ── EXPERTISE CARDS ── */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 18px;
+            margin-top: 10px;
+        }
+
+        .expertise-card {
+            background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+            color: white;
+            padding: 22px 18px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .expertise-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(6, 182, 212, 0.4);
+        }
+
+        .expertise-card .icon {
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .expertise-card .icon svg {
+            width: 40px;
+            height: 40px;
+        }
+
+        .expertise-card h4 {
+            font-size: 0.95em;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .expertise-card p {
+            font-size: 0.82em;
+            opacity: 0.92;
+            line-height: 1.5;
+        }
+
+        /* ── EXPERIENCE ── */
+        .exp-item {
+            background: #cffafe;
+            padding: 18px 20px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            border-left: 5px solid #06b6d4;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 10px;
+            align-items: start;
+        }
+
+        .exp-item h4 {
+            color: #0891b2;
+            font-size: 0.98em;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .exp-item p {
+            font-size: 0.88em;
+            color: #555;
+        }
+
+        .exp-date {
+            font-size: 0.8em;
+            color: white;
+            background: #0891b2;
+            padding: 4px 10px;
+            border-radius: 12px;
+            white-space: nowrap;
+        }
+
+        /* ── TABLE ── */
+        .qual-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        .qual-table th {
+            background: #0891b2;
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .qual-table th:first-child { border-radius: 8px 0 0 0; }
+        .qual-table th:last-child  { border-radius: 0 8px 0 0; }
+
+        .qual-table td {
+            padding: 10px 15px;
+            border-bottom: 1px solid #e0f7fa;
+        }
+
+        .qual-table tr:hover td {
+            background: #cffafe;
+        }
+
+        .qual-table tr:last-child td { border-bottom: none; }
+
+        /* ── MEMBERSHIPS ── */
+        .membership-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .membership-box {
+            background: white;
+            border: 2px solid #06b6d4;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .membership-box h4 {
+            color: #0891b2;
+            margin-bottom: 12px;
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .membership-box ul {
+            list-style: none;
+        }
+
+        .membership-box li {
+            padding: 7px 0 7px 22px;
+            position: relative;
+            font-size: 0.88em;
+            border-bottom: 1px solid #e0f7fa;
+        }
+
+        .membership-box li:last-child { border-bottom: none; }
+
+        .membership-box li::before {
+            position: absolute;
+            left: 0;
+            top: 8px;
+            content: '';
+            width: 14px;
+            height: 14px;
+            background-color: #0891b2;
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            -webkit-mask-size: contain;
+            mask-size: contain;
+        }
+
+        .membership-box.advocate li::before {
+            -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cpath d='M8 6s1 2 4 2 4-2 4-2M8 18s1-2 4-2 4 2 4 2'/%3E%3C/svg%3E");
+            mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cpath d='M8 6s1 2 4 2 4-2 4-2M8 18s1-2 4-2 4 2 4 2'/%3E%3C/svg%3E");
+        }
+
+        .membership-box.media li::before {
+            -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2'/%3E%3Cline x1='3' y1='9' x2='21' y2='9'/%3E%3Cline x1='9' y1='21' x2='9' y2='9'/%3E%3C/svg%3E");
+            mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2'/%3E%3Cline x1='3' y1='9' x2='21' y2='9'/%3E%3Cline x1='9' y1='21' x2='9' y2='9'/%3E%3C/svg%3E");
+        }
+
+        /* ── BOOKS & PAPERS ── */
+        .pub-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+            margin-top: 10px;
+        }
+
+        .pub-card {
+            background: white;
+            border: 2px solid #06b6d4;
+            padding: 16px 18px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .pub-card:hover {
+            box-shadow: 0 8px 25px rgba(6, 182, 212, 0.25);
+            border-color: #0891b2;
+            transform: translateY(-3px);
+        }
+
+        .pub-card .pub-icon {
+            display: flex;
+            align-items: center;
+        }
+
+        .pub-card .pub-icon svg {
+            width: 32px;
+            height: 32px;
+        }
+
+        .pub-card h5 {
+            color: #0891b2;
+            font-size: 0.9em;
+            line-height: 1.4;
+            flex: 1;
+        }
+
+        .pub-card a {
+            color: #06b6d4;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .pub-card a:hover { text-decoration: underline; }
+
+        /* ── STRENGTHS ── */
+        .strengths-list {
+            columns: 2;
+            column-gap: 30px;
+            margin-top: 10px;
+        }
+
+        .strengths-list li {
+            list-style: none;
+            padding: 9px 0 9px 26px;
+            position: relative;
+            break-inside: avoid;
+            font-size: 0.93em;
+        }
+
+        .strengths-list li::before {
+            content: "★";
+            position: absolute;
+            left: 0;
+            color: #0891b2;
+            font-size: 1.1em;
+        }
+
+        /* ── WEBSITES ── */
+        .websites-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 14px;
+            margin-top: 10px;
+        }
+
+        .website-link {
+            background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 14px 18px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 0.88em;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: block;
+        }
+
+        .website-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(6, 182, 212, 0.4);
+        }
+
+        .website-link small {
+            display: block;
+            opacity: 0.85;
+            font-weight: 400;
+            margin-top: 3px;
+            font-size: 0.85em;
+        }
+
+        /* ── PHILOSOPHY ── */
+        .philosophy-block {
+            background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+            color: white;
+            padding: 32px 36px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .philosophy-block blockquote {
+            font-size: 1.15em;
+            font-style: italic;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .phil-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .phil-card {
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.25);
+            padding: 18px;
+            border-radius: 10px;
+        }
+
+        .phil-card h4 {
+            font-size: 1em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .phil-card p {
+            font-size: 0.88em;
+            opacity: 0.92;
+            line-height: 1.5;
+        }
+
+        /* ── CONTACT FOOTER ── */
+        .contact-section {
+            background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        .contact-section h2 {
+            text-align: center;
+            font-size: 1.7em;
+            margin-bottom: 25px;
+        }
+
+        .contact-details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .contact-box {
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.25);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .contact-box h4 {
+            color: #ffd700;
+            font-size: 0.85em;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .contact-box p, .contact-box a {
+            font-size: 0.92em;
+            margin: 6px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover { text-decoration: underline; }
+
+        .commitment-banner {
+            background: rgba(0,0,0,0.15);
+            border-radius: 10px;
+            padding: 16px 20px;
+            text-align: center;
+            font-style: italic;
+            font-size: 0.95em;
+            margin-top: 20px;
+        }
+
+        /* ── FOOTER ── */
+        footer {
+            background: #065e7c;
+            color: rgba(255,255,255,0.8);
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85em;
+        }
+
+        footer a {
+            color: #67e8f9;
+            text-decoration: none;
+        }
+
+        footer a:hover { text-decoration: underline; }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 768px) {
+            body { padding: 10px; padding-top: 60px; }
+
+            nav { padding: 0 16px; height: 52px; }
+
+            .nav-brand { display: block; }
+
+            .nav-toggle {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 52px;
+                left: 0;
+                right: 0;
+                background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+                flex-direction: column;
+                align-items: stretch;
+                padding: 10px 16px 16px;
+                gap: 4px;
+                box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+                width: 100%;
+            }
+
+            .nav-links.open { display: flex; }
+
+            .nav-links a {
+                padding: 10px 14px;
+                border-radius: 8px;
+                font-size: 0.95em;
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+            }
+
+            .nav-links a:last-child { border-bottom: none; }
+
+            .header { padding: 35px 20px 30px; }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 20px;
+            }
+
+            .profile-image,
+            .profile-initials {
+                margin: 0 auto;
+            }
+
+            .hero-text h1 { font-size: 1.9em; }
+
+            .tagline-strip { justify-content: center; }
+
+            .header-contact {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .content { padding: 20px; }
+
+            .two-col,
+            .membership-grid,
+            .phil-cards,
+            .contact-details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .strengths-list { columns: 1; }
+
+            .exp-item { grid-template-columns: 1fr; }
+
+            .qual-table thead { display: none; }
+            .qual-table, .qual-table tbody, .qual-table tr, .qual-table td {
+                display: block;
+                width: 100%;
+            }
+            .qual-table tr {
+                background: #cffafe;
+                margin-bottom: 12px;
+                border-radius: 8px;
+                padding: 12px;
+                border-left: 4px solid #06b6d4;
+            }
+            .qual-table td {
+                padding: 5px 0;
+                border: none;
+                display: grid;
+                grid-template-columns: 130px 1fr;
+                gap: 8px;
+                font-size: 0.88em;
+            }
+            .qual-table td::before {
+                content: attr(data-label);
+                font-weight: bold;
+                color: #0891b2;
+            }
+
+            .contact-section {
+                padding: 24px 16px;
+            }
+
+            .contact-section h2 {
+                font-size: 1.3em;
+                margin-bottom: 16px;
+            }
+
+            .contact-box {
+                padding: 14px 16px;
+            }
+
+            .contact-box h4 {
+                font-size: 0.78em;
+                margin-bottom: 8px;
+            }
+
+            .contact-box p,
+            .contact-box a {
+                font-size: 0.86em;
+                word-break: break-word;
+            }
+
+            .commitment-banner {
+                font-size: 0.84em;
+                padding: 12px 14px;
+            }
+
+            footer {
+                font-size: 0.78em;
+                padding: 14px;
+                word-break: break-word;
+            }
+
+            footer p { line-height: 1.8; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+    <span class="nav-brand">Advocate Dr. Saddam Hussain</span>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+        <a href="#about" onclick="closeNav()">About</a>
+        <a href="#expertise" onclick="closeNav()">Expertise</a>
+        <a href="#experience" onclick="closeNav()">Experience</a>
+        <a href="#education" onclick="closeNav()">Education</a>
+        <a href="#memberships" onclick="closeNav()">Memberships</a>
+        <a href="#publications" onclick="closeNav()">Publications</a>
+        <a href="#philosophy" onclick="closeNav()">Philosophy</a>
+        <a href="#contact" onclick="closeNav()">Contact</a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header" id="about">
+        <div class="hero-content">
+            <img src="Professional-Indian-ID-Portrait.png" alt="Advocate Dr. Saddam Hussain" class="profile-image">
+            <div class="hero-text">
+                <div class="cop-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:5px;"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                    COP No: COP/2026/21/23002342
+                </div>
+                <h1>Advocate Dr. Saddam Hussain</h1>
+                <h2>CFO &amp; HR Head | Legal Advisor</h2>
+                <h3>Minds NXT Techno Vision Pvt. Ltd.</h3>
+                <div class="tagline-strip">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                        Legal Excellence
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                        Corporate Governance
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                        Financial Expertise
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        Professional Integrity
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-contact">
+            <div class="col">
+                <span class="col-label">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.42 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 5.63 5.63l.87-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+                    Phone
+                </span>
+                <p>+91 96720 05200</p>
+            </div>
+            <div class="col">
+                <span class="col-label">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    Email
+                </span>
+                <p>mrsaddamhussainnhr31@gmail.com</p>
+            </div>
+            <div class="col">
+                <span class="col-label">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Website
+                </span>
+                <p>www.advocatesaddamhussain.com</p>
+            </div>
+            <div class="col">
+                <span class="col-label">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Office
+                </span>
+                <p>Prime Mall 2nd Floor, Station Road, Kalaburagi, Karnataka – 585102</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN -->
+    <div class="content">
+
+        <!-- PROFESSIONAL PROFILE -->
+        <section class="section two-col" id="profile">
+            <div class="info-box">
+                <h4>Professional Profile</h4>
+                <p style="font-size:0.92em; line-height:1.7;">
+                    Advocate Saddam Hussain is an Indian legal and corporate advisory professional,
+                    finance and operations specialist, and academic researcher with more than a decade
+                    of professional experience spanning legal advisory, corporate administration,
+                    financial management, HR management, and business operations.
+                </p>
+                <br>
+                <p style="font-size:0.92em; line-height:1.7;">
+                    With multidisciplinary qualifications — Ph.D., MBA, M.Com., B.Com., LL.M., and
+                    LL.B. — he brings together law, finance, commerce, and management to provide an
+                    integrated perspective on complex business and regulatory matters.
+                </p>
+            </div>
+            <div class="info-box">
+                <h4>Key Competencies</h4>
+                <ul>
+                    <li>Corporate legal advisory &amp; governance</li>
+                    <li>Financial planning &amp; management</li>
+                    <li>Regulatory compliance coordination</li>
+                    <li>Employment &amp; labour law</li>
+                    <li>Commercial dispute resolution</li>
+                    <li>HR strategy &amp; operations</li>
+                    <li>Academic research &amp; legal writing</li>
+                    <li>Business risk assessment</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- AREAS OF EXPERTISE -->
+        <section class="section" id="expertise">
+            <h2 class="section-title">Areas of Professional Expertise</h2>
+            <div class="cards-grid">
+                <div class="expertise-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M8 6s1 2 4 2 4-2 4-2M8 18s1-2 4-2 4 2 4 2"/></svg>
+                    </div>
+                    <h4>Corporate &amp; Business Law</h4>
+                    <p>Legal advisory, business agreements, corporate governance, commercial transactions &amp; legal risk management.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <h4>Financial &amp; Corporate Advisory</h4>
+                    <p>Financial planning, corporate financial management, reporting, internal controls &amp; risk assessment.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    </div>
+                    <h4>Corporate Compliance</h4>
+                    <p>Regulatory requirements, statutory obligations, organisational policies &amp; corporate accountability.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h4>Employment &amp; Labour Law</h4>
+                    <p>Employment contracts, workplace policies, HR compliance, employment disputes &amp; disciplinary procedures.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h4>Commercial Disputes &amp; Documentation</h4>
+                    <p>Legal notices, commercial agreements, contractual disputes, documentation &amp; legal proceedings.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    </div>
+                    <h4>Business Management &amp; Strategy</h4>
+                    <p>Organisational governance, operational efficiency, financial strategy &amp; sustainable development.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK EXPERIENCE -->
+        <section class="section" id="experience">
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="exp-item">
+                <div>
+                    <h4>CFO &amp; HR Head — Minds NXT Techno Vision Pvt. Ltd.</h4>
+                    <p>Financial management, corporate administration, compliance coordination &amp; organisational operations.</p>
+                </div>
+                <span class="exp-date">Jan 2026 – Present</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>Legal Advisor — Minds NXT Techno Vision Pvt. Ltd.</h4>
+                    <p>Corporate legal advisory, compliance &amp; contractual matters. Website: <a href="http://www.mindsnxt.com" target="_blank" rel="noopener" style="color:#0891b2;">mindsnxt.com</a></p>
+                </div>
+                <span class="exp-date">Jul 2024 – Present</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>Admin Services — BANAO.AI (Andromeda 360, Inc), USA</h4>
+                    <p>Administrative &amp; operational services for US-based technology company.</p>
+                </div>
+                <span class="exp-date">Apr 2024 – Present</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>Admin Services — Genesilico, USA</h4>
+                    <p>Administrative support and operations management.</p>
+                </div>
+                <span class="exp-date">Jan 2024 – Present</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>Admin Services — POD Health, USA</h4>
+                    <p>Administrative services and operations coordination.</p>
+                </div>
+                <span class="exp-date">Jan 2024 – Present</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>Finance &amp; Operations Manager — Minds NXT Techno Vision Pvt. Ltd.</h4>
+                    <p>Financial oversight, operations management &amp; corporate administration.</p>
+                </div>
+                <span class="exp-date">Jan 2022 – Dec 2025</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>Finance &amp; HR Manager — Minds NXT Techno Vision Pvt. Ltd.</h4>
+                    <p>Financial management, human resource strategy &amp; organisational operations.</p>
+                </div>
+                <span class="exp-date">May 2018 – Dec 2021</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>Finance Officer — Minds Solvit Pvt. Ltd.</h4>
+                    <p>Financial operations, accounts management &amp; reporting.</p>
+                </div>
+                <span class="exp-date">Jan 2017 – Apr 2018</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>CFO — IBM® Emptoris® Supplier Lifecycle Management, Minds Solvit Pvt. Ltd.</h4>
+                    <p>Chief Financial Officer role for IBM Emptoris platform implementation project.</p>
+                </div>
+                <span class="exp-date">Jan 2017 – May 2017</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>Non-Executive Director — Kuchaman Fort and Palace Pvt. Ltd.</h4>
+                    <p>Board-level directorial responsibilities and corporate governance.</p>
+                </div>
+                <span class="exp-date">Apr 2016 – Dec 2016</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>Non-Executive Director — Glorious Infraengineers Pvt. Ltd.</h4>
+                    <p>Board-level directorial responsibilities and strategic oversight.</p>
+                </div>
+                <span class="exp-date">Apr 2016 – Dec 2016</span>
+            </div>
+
+            <div class="exp-item">
+                <div>
+                    <h4>Accountant — Shiva Corporation India Ltd.</h4>
+                    <p>Financial accounts, bookkeeping &amp; compliance reporting.</p>
+                </div>
+                <span class="exp-date">Jul 2015 – Mar 2016</span>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section" id="education">
+            <h2 class="section-title">Education &amp; Qualifications</h2>
+            <table class="qual-table">
+                <thead>
+                    <tr>
+                        <th>Examination</th>
+                        <th>Board / University</th>
+                        <th>Year</th>
+                        <th>%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Examination">10th</td>
+                        <td data-label="Board / University">Ajmer Board, Rajasthan</td>
+                        <td data-label="Year">2008</td>
+                        <td data-label="%">58%</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">12th</td>
+                        <td data-label="Board / University">Ajmer Board, Rajasthan</td>
+                        <td data-label="Year">2010</td>
+                        <td data-label="%">65%</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">B.Com</td>
+                        <td data-label="Board / University">MGSU, Bikaner, Rajasthan</td>
+                        <td data-label="Year">2013</td>
+                        <td data-label="%">65%</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">M.Com</td>
+                        <td data-label="Board / University">MGSU, Bikaner, Rajasthan</td>
+                        <td data-label="Year">2015</td>
+                        <td data-label="%">55%</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">MBA</td>
+                        <td data-label="Board / University">JJTU, Jhunjhunu, Rajasthan</td>
+                        <td data-label="Year">2015</td>
+                        <td data-label="%">78%</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">Mini MBA</td>
+                        <td data-label="Board / University">IBMI, Berlin, Germany</td>
+                        <td data-label="Year">2021</td>
+                        <td data-label="%">A+</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">Ph.D.</td>
+                        <td data-label="Board / University">JJTU, Jhunjhunu, Rajasthan</td>
+                        <td data-label="Year">2018</td>
+                        <td data-label="%">74%</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">LL.B</td>
+                        <td data-label="Board / University">JJTU, Jhunjhunu, Rajasthan</td>
+                        <td data-label="Year">2024</td>
+                        <td data-label="%">65%</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">MA (Economics)</td>
+                        <td data-label="Board / University">KSOU, Karnataka</td>
+                        <td data-label="Year">2025</td>
+                        <td data-label="%">60%</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">LL.M (Corporate)</td>
+                        <td data-label="Board / University">JJTU, Rajasthan</td>
+                        <td data-label="Year">2026</td>
+                        <td data-label="%">63%</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">PG Diploma</td>
+                        <td data-label="Board / University">KSOU, Karnataka</td>
+                        <td data-label="Year">2026</td>
+                        <td data-label="%">64%</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Examination">LL.M (Criminal Law)</td>
+                        <td data-label="Board / University">JJTU, Rajasthan</td>
+                        <td data-label="Year">Pursuing</td>
+                        <td data-label="%">—</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="margin-top:20px;">
+                <div class="info-box">
+                    <h4>Government Institution Certificate</h4>
+                    <ul>
+                        <li>ISO 9001:2015 QMS Internal Auditor — MSME Technology Development Center, Chennai (CFTI)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ADVOCATE MEMBERSHIPS -->
+        <section class="section" id="memberships">
+            <h2 class="section-title">Professional Memberships &amp; Licences</h2>
+            <div class="membership-grid">
+                <div class="membership-box advocate">
+                    <h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M8 6s1 2 4 2 4-2 4-2M8 18s1-2 4-2 4 2 4 2"/></svg>
+                        Advocate Membership
+                    </h4>
+                    <ul>
+                        <li>The Bar Council of India<br><small style="color:#555;">COP No: COP/2026/21/23002342</small></li>
+                        <li>The Bar Council of Rajasthan<br><small style="color:#555;">Enrolment No: R2050/2025</small></li>
+                        <li>Nohar Bar Association<br><small style="color:#555;">Enrolment No: R2050/2025/353</small></li>
+                    </ul>
+                </div>
+                <div class="membership-box media">
+                    <h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6z"/></svg>
+                        Media Membership
+                    </h4>
+                    <ul>
+                        <li>All India Media Association<br><small style="color:#555;">Press ID: 202783</small></li>
+                        <li>Indian Press Union<br><small style="color:#555;">Press ID: IND-9711</small></li>
+                        <li>Bharat Press Network<br><small style="color:#555;">Press ID: BPN-2026-63LIPA</small></li>
+                        <li>Hind Media Network<br><small style="color:#555;">Press ID: HMN-FR-2026-4075</small></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PUBLICATIONS: BOOKS -->
+        <section class="section" id="publications">
+            <h2 class="section-title">Published Books</h2>
+            <div class="pub-grid">
+                <div class="pub-card">
+                    <div class="pub-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    </div>
+                    <h5>Advocates Act and Legal Practice in India</h5>
+                    <a href="https://www.amazon.in/dp/B0HFT45QVZ" target="_blank" rel="noopener">View on Amazon →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    </div>
+                    <h5>Corporate Legal Policies</h5>
+                    <a href="https://www.amazon.in/dp/B0HCNDKM12" target="_blank" rel="noopener">View on Amazon →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    </div>
+                    <h5>The Law of Advocates in India</h5>
+                    <a href="https://www.amazon.in/dp/B0HJ6L67FS" target="_blank" rel="noopener">View on Amazon →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PUBLICATIONS: PAPERS -->
+        <section class="section">
+            <h2 class="section-title">Published Research Papers</h2>
+            <div class="pub-grid">
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>Corporate Law: The Foundation of Corporate Governance, Compliance, and Sustainable Business Growth</h5>
+                    <a href="https://ijirt.org/publishedpaper/IJIRT206099_PAPER.pdf" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>Business Administration: The Foundation of Organizational Success in the Modern Era</h5>
+                    <a href="https://ijcrt.org/track.php?r_id=310800" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>Business Law: The Legal Foundation for Ethical and Sustainable Business Operations</h5>
+                    <a href="https://ijrar.org/track.php?r_id=336834" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>Artificial Intelligence and Legal Regulation: Challenges of Liability, Accountability, and Ethical Governance</h5>
+                    <a href="https://ijcrt.org/papers/IJCRT2608473.pdf" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>Data Privacy and Protection in the Digital Era: Emerging Legal Challenges and Regulatory Responses</h5>
+                    <a href="http://ijrar.org/viewfull.php?&p_id=IJRAR26C2313" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>Cybercrime and Cybersecurity Law: Legal Challenges in the Age of Digital Transformation</h5>
+                    <a href="https://www.ijfmr.com/research-paper.php?id=86968" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>Artificial Intelligence and Intellectual Property Rights: Copyright, Patent, and Ownership Challenges</h5>
+                    <a href="https://www.iistj.org/article.php?paperid=121535" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>The Role of Competition Law in Promoting Fair Market Practices</h5>
+                    <a href="https://ijrti.org/papers/IJRTI2609399.pdf" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>Legal Aspects of Cross-Border Mergers and Acquisitions</h5>
+                    <a href="https://ijcrt.org/papers/IJCRT2609381.pdf" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>Environmental Laws and Corporate Compliance: Challenges for Sustainable Business</h5>
+                    <a href="https://www.ijrar.org/papers/IJRAR26C2810.pdf" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+                    <h5>The Evolution of Business Law in the Era of Globalization and Digital Transformation</h5>
+                    <a href="https://www.ijfmr.com/papers/2026/5/88842.pdf" target="_blank" rel="noopener">Read Paper →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PERSONAL STRENGTHS -->
+        <section class="section">
+            <h2 class="section-title">Personal Strengths</h2>
+            <ul class="strengths-list">
+                <li>Knowledge of Accounts &amp; Finance</li>
+                <li>Finance Management Expertise</li>
+                <li>Fluent in English &amp; Hindi</li>
+                <li>Works in Challenging Environments</li>
+                <li>Quick Learner</li>
+                <li>Teamwork &amp; Leadership</li>
+                <li>Disciplined Professional</li>
+                <li>Strong Analytical Thinking</li>
+            </ul>
+        </section>
+
+        <!-- PROFESSIONAL WEBSITES -->
+        <section class="section">
+            <h2 class="section-title">Professional Websites</h2>
+            <div class="websites-grid">
+                <a class="website-link" href="https://www.advocatesaddamhussain.com" target="_blank" rel="noopener">
+                    advocatesaddamhussain.com
+                    <small>Legal Practice Website</small>
+                </a>
+                <a class="website-link" href="https://www.drsaddamhussain.com" target="_blank" rel="noopener">
+                    drsaddamhussain.com
+                    <small>Professional Profile</small>
+                </a>
+                <a class="website-link" href="https://www.drsaddamhussain.in" target="_blank" rel="noopener">
+                    drsaddamhussain.in
+                    <small>Professional Profile</small>
+                </a>
+                <a class="website-link" href="https://www.drsaddamhussain.co.in" target="_blank" rel="noopener">
+                    drsaddamhussain.co.in
+                    <small>Professional Profile</small>
+                </a>
+                <a class="website-link" href="http://www.mindsnxt.com" target="_blank" rel="noopener">
+                    mindsnxt.com
+                    <small>Current Employer</small>
+                </a>
+            </div>
+        </section>
+
+        <!-- PHILOSOPHY / VISION / MISSION -->
+        <section class="section" id="philosophy">
+            <h2 class="section-title">Philosophy, Vision &amp; Mission</h2>
+            <div class="philosophy-block">
+                <blockquote>
+                    "Effective legal and corporate advisory services must be built upon integrity,
+                    confidentiality, accountability, professional competence, and a thorough
+                    understanding of each client's circumstances."
+                </blockquote>
+                <div class="phil-cards">
+                    <div class="phil-card">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:6px;"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+                            Vision
+                        </h4>
+                        <p>To contribute to a professional environment in which individuals, entrepreneurs,
+                        and organisations can make informed legal and financial decisions with confidence,
+                        transparency, and a commitment to long-term sustainability.</p>
+                    </div>
+                    <div class="phil-card">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:6px;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                            Mission
+                        </h4>
+                        <p>To promote responsible legal advisory practices, ethical corporate governance,
+                        effective financial management, and practical business solutions through
+                        professional knowledge, continuous research, and an interdisciplinary approach.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-section">
+                <h2>Get in Touch</h2>
+                <div class="contact-details-grid">
+                    <div class="contact-box">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:5px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.42 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 5.63 5.63l.87-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+                            Phone
+                        </h4>
+                        <a href="tel:+919672005200">+91 96720 05200</a>
+                    </div>
+                    <div class="contact-box">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:5px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            Email
+                        </h4>
+                        <a href="mailto:mrsaddamhussainnhr31@gmail.com">mrsaddamhussainnhr31@gmail.com</a>
+                    </div>
+                    <div class="contact-box">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:5px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            Office Address
+                        </h4>
+                        <p>Prime Mall, Second Floor, Station Road,<br>Kalaburagi, Karnataka – 585102, India</p>
+                    </div>
+                    <div class="contact-box">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:5px;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M8 6s1 2 4 2 4-2 4-2M8 18s1-2 4-2 4 2 4 2"/></svg>
+                            Bar Council Registration
+                        </h4>
+                        <p>COP No: COP/2026/21/23002342</p>
+                        <p>Bar Council of India</p>
+                        <p>Bar Council of Rajasthan — R2050/2025</p>
+                    </div>
+                </div>
+                <div class="commitment-banner">
+                    "Protecting Legal Interests. Strengthening Corporate Governance. Building Financial Confidence."
+                </div>
+            </div>
+        </section>
+
+    </div><!-- /.content -->
+
+    <footer>
+        <p>&copy; 2026 Advocate Dr. Saddam Hussain | COP No: COP/2026/21/23002342</p>
+        <p style="margin-top:6px;">
+            <a href="https://www.advocatesaddamhussain.com">advocatesaddamhussain.com</a> &nbsp;|&nbsp;
+            <a href="https://www.drsaddamhussain.in">drsaddamhussain.in</a> &nbsp;|&nbsp;
+            <a href="https://www.drsaddamhussain.com">drsaddamhussain.com</a>
+        </p>
+    </footer>
+
+</div><!-- /.container -->
+
+<script>
+    const toggle = document.getElementById('navToggle');
+    const links  = document.getElementById('navLinks');
+
+    toggle.addEventListener('click', () => {
+        links.classList.toggle('open');
+        // animate hamburger to X
+        const spans = toggle.querySelectorAll('span');
+        spans[0].style.transform = links.classList.contains('open') ? 'translateY(7px) rotate(45deg)' : '';
+        spans[1].style.opacity   = links.classList.contains('open') ? '0' : '1';
+        spans[2].style.transform = links.classList.contains('open') ? 'translateY(-7px) rotate(-45deg)' : '';
+    });
+
+    function closeNav() {
+        links.classList.remove('open');
+        const spans = toggle.querySelectorAll('span');
+        spans[0].style.transform = '';
+        spans[1].style.opacity   = '1';
+        spans[2].style.transform = '';
+    }
+
+    // close menu on outside click
+    document.addEventListener('click', (e) => {
+        if (!toggle.contains(e.target) && !links.contains(e.target)) {
+            closeNav();
+        }
+    });
+</script>
+
+</body>
+</html>
